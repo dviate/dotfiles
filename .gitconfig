@@ -1,4 +1,64 @@
+
 [user]
 	name = Jermaine van Wijhe
 	email = git@dviate.com
 
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+	safecrlf = true
+
+[push]
+	default = tracking
+
+[branch]
+	autosetuprebase = always
+
+[branch "master"]
+	rebase = true
+
+[alias]
+	b = branch
+	t = tag
+	d = diff --stat -p -C
+	ds = diff --staged --stat -p -C
+	ci = commit -v
+	co = checkout
+	st = status -sb
+	wc = whatchanged --abbrev-commit --date=relative --date-order --pretty='format:%Cgreen%h %Cblue%ar %Credby %an%Creset -- %s' -n 45
+	ll = log --graph --date=relative --topo-order --pretty='format:%C(yellow)%h%C(yellow)%d %Cblue%ar %Cgreenby %an%Creset -- %s'
+	lla = log --graph --date=relative --topo-order --pretty='format:%Cgreen%h %Cblue%ar %Credby %an%Creset -- %s' --all
+	gl = log --decorate --graph --abbrev-commit --color --color-words --topo-order --pretty=medium
+	gla = log --decorate --graph --abbrev-commit --color --color-words --topo-order --pretty=medium --all
+	sl = log --decorate --graph --abbrev-commit --color --topo-order --pretty=oneline
+	sla = log --decorate --graph --abbrev-commit --color --topo-order --pretty=oneline --all
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	guilt = "!f(){ git log --pretty='format:%an <%ae>' $@ | sort | uniq -c | sort -rn; }; f"
+
+[diff]
+	renames = true
+
+[color]
+	ui = auto
+	branch = auto
+	diff = auto
+	status = auto
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "diff"]
+	meta = blue bold
+	frag = magenta bold
+	old = red
+	new = green
+
+[color "status"]
+	added = blue bold
+	changed = green bold
+	untracked = cyan bold
+
+[blame]
+	date = relative
