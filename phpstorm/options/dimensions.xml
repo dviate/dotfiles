@@ -1,0 +1,9 @@
+<application>
+  <component name="DimensionService">
+    <location key="OptionsEditor.0.0.1920.1200" x="359" y="84" />
+    <location key="WELCOME_SCREEN.0.0.1920.1200" x="959" y="300" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1200" x="678" y="435" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1920.1200" x="687" y="424" />
+    <location key="#PHP.0.0.1920.1200" x="692" y="283" />
+  </component>
+</application>
