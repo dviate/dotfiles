@@ -2,59 +2,104 @@
   <component name="StatisticsApplicationUsages">
     <group name="vcs">
       <project id="startmetuber.nl" values="Git" />
+      <project id="html5-boilerplate" values="Git" />
     </group>
     <group name="module type">
+      <project id="dviate.com" values="WEB_MODULE" />
       <project id="index.html" values="WEB_MODULE" />
+      <project id="dotfiles" values="WEB_MODULE" />
       <project id="startmetuber.nl" values="WEB_MODULE" />
+      <project id="html5-boilerplate" values="WEB_MODULE" />
       <project id="index.html0.tmp" values="WEB_MODULE" />
     </group>
     <group name="file-type">
-      <project id="index.html" values="UNKNOWN,HTML" />
-      <project id="startmetuber.nl" values="SQLite Database,ARCHIVE,Native,PLAIN_TEXT,UNKNOWN,SourceMap,PHP,Images,JavaScript,SCSS,HTML,JSON,htaccess,CSS,XML" />
+      <project id="dviate.com" values="JSON,YAML,Images,PATCH,HTML,PHP,SCSS,CSS,C++,SmartyConfig,PLAIN_TEXT,JSCS,JavaScript,JSHint,ESLint,UNKNOWN,CoffeeScript,DTD,XML,Ini,htaccess,SourceMap" />
+      <project id="index.html" values="HTML,UNKNOWN" />
+      <project id="dotfiles" values="XML,UNKNOWN,PLAIN_TEXT" />
+      <project id="startmetuber.nl" values="ARCHIVE,SQLite Database,XML,PLAIN_TEXT,CSS,Native,JavaScript,SCSS,JSON,PHP,htaccess,UNKNOWN,SourceMap,Images,HTML" />
+      <project id="html5-boilerplate" values="JavaScript,Images,PHP,PLAIN_TEXT,SCSS,XML,JSON,htaccess,UNKNOWN" />
       <project id="index.html0.tmp" values="XML,UNKNOWN" />
     </group>
     <group name="javaScript Scope Usages">
+      <project id="dviate.com" values="Project,Project" />
       <project id="index.html" values="Project,Project" />
+      <project id="dotfiles" values="Project,Project" />
       <project id="startmetuber.nl" values="Project,Project" />
+      <project id="html5-boilerplate" values="Project,Project" />
       <project id="index.html0.tmp" values="Project,Project" />
     </group>
     <group name="php-interpreters">
+      <project id="dviate.com" values="0" />
       <project id="index.html" values="0" />
+      <project id="dotfiles" values="0" />
       <project id="startmetuber.nl" values="0" />
+      <project id="html5-boilerplate" values="0" />
       <project id="index.html0.tmp" values="0" />
     </group>
     <group name="php-interpreter-version">
+      <project id="dviate.com" values="not installed" />
       <project id="index.html" values="not installed" />
+      <project id="dotfiles" values="not installed" />
       <project id="startmetuber.nl" values="not installed" />
+      <project id="html5-boilerplate" values="not installed" />
       <project id="index.html0.tmp" values="not installed" />
     </group>
     <group name="php-servers">
+      <project id="dviate.com" values="0" />
       <project id="index.html" values="0" />
+      <project id="dotfiles" values="0" />
       <project id="startmetuber.nl" values="0" />
+      <project id="html5-boilerplate" values="0" />
       <project id="index.html0.tmp" values="0" />
     </group>
     <group name="php-include-path">
+      <project id="dviate.com" values="0" />
       <project id="index.html" values="0" />
+      <project id="dotfiles" values="0" />
       <project id="startmetuber.nl" values="0" />
-      <project id="index.html0.tmp" values="0" />
-    </group>
-    <group name="php-debug-skipped-paths">
-      <project id="index.html" values="0" />
-      <project id="startmetuber.nl" values="0" />
+      <project id="html5-boilerplate" values="0" />
       <project id="index.html0.tmp" values="0" />
     </group>
     <group name="JavaScript versions">
+      <project id="dviate.com" values="DEFAULT" />
       <project id="index.html" values="DEFAULT" />
+      <project id="dotfiles" values="DEFAULT" />
       <project id="startmetuber.nl" values="DEFAULT" />
+      <project id="html5-boilerplate" values="DEFAULT" />
       <project id="index.html0.tmp" values="DEFAULT" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="dviate.com" values="0" />
+      <project id="index.html" values="0" />
+      <project id="dotfiles" values="0" />
+      <project id="startmetuber.nl" values="0" />
+      <project id="html5-boilerplate" values="0" />
+      <project id="index.html0.tmp" values="0" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="6" />
+      <entry feature="ide.settings.Appearance" count="2" />
+      <entry feature="ide.settings.Blade" count="1" />
+      <entry feature="ide.settings.CSS" count="1" />
+      <entry feature="ide.settings.CoffeeScript" count="1" />
       <entry feature="ide.settings.General" count="2" />
-      <entry feature="ide.settings.Keymap" count="4" />
-      <entry feature="ideaapp.started" count="7" />
+      <entry feature="ide.settings.Gherkin" count="1" />
+      <entry feature="ide.settings.HAML" count="1" />
+      <entry feature="ide.settings.HTML" count="1" />
+      <entry feature="ide.settings.JSON" count="1" />
+      <entry feature="ide.settings.JavaScript" count="1" />
+      <entry feature="ide.settings.Keymap" count="8" />
+      <entry feature="ide.settings.LESS" count="1" />
+      <entry feature="ide.settings.PHP" count="1" />
+      <entry feature="ide.settings.SASS" count="1" />
+      <entry feature="ide.settings.SCSS" count="2" />
+      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ide.settings.Twig" count="1" />
+      <entry feature="ide.settings.TypeScript" count="1" />
+      <entry feature="ide.settings.XML" count="1" />
+      <entry feature="ideaapp.started" count="10" />
     </counts>
   </component>
 </application>

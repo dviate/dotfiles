@@ -13,5 +13,8 @@
     <property name="Non-Project Files" value="Yellow" />
     <property name="ChangesViewManager.DETAILS_SPLITTER_PROPORTION" value="0.5" />
     <property name="javascript.grunt_toolwindow_splitter" value="0.2" />
+    <property name="FileTemplates.CurrentTab" value="Templates" />
+    <property name="FileTemplates.SelectedTemplate" value="SCSS" />
+    <property name="FindSplitterProportion" value="0.25" />
   </component>
 </application>

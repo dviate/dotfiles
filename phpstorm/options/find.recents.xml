@@ -1,0 +1,40 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find />
+      <find>debug</find>
+      <find>'header'</find>
+      <find>cd-main-nav-wrapper</find>
+      <find>wrapper</find>
+      <find>cd-main-nav</find>
+      <find>cd-subnav-trigger</find>
+      <find>nav-is-visible</find>
+      <find>font</find>
+      <find>main</find>
+      <find>main-con</find>
+      <find>nav-main</find>
+      <find>moves-</find>
+      <find>go-back</find>
+      <find>left: 20px</find>
+      <find>#fff;</find>
+      <find>top: 19px</find>
+      <find>width: 48</find>
+      <find>cd-nav-trigger</find>
+      <find>secondary</find>
+      <find>#485c68</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>'.header-main'</replace>
+      <replace>nav-main</replace>
+      <replace>nav-main-subnavtrigger</replace>
+      <replace>is-open</replace>
+      <replace>$color-white;</replace>
+      <replace>black</replace>
+      <replace>$color-black</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>/development/dviate.com/src/scss</dir>
+    </dirStrings>
+  </component>
+</application>
