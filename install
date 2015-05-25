@@ -7,6 +7,8 @@ ln -s $d/.gitignore ~/.gitignore
 ln -s $d/.git-completion.bash ~/.git-completion.bash
 ln -s $d/.git-prompt.sh ~/.git-prompt.sh
 
+ln -s $d/phpstorm/options/ ~/Library/Logs/WebIde80/options/
+
 ###############################################################################
 # general ui/ux and some sounds                                               #
 ###############################################################################
