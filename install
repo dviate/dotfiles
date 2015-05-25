@@ -7,6 +7,10 @@ ln -s $d/.gitignore ~/.gitignore
 ln -s $d/.git-completion.bash ~/.git-completion.bash
 ln -s $d/.git-prompt.sh ~/.git-prompt.sh
 
+# enables powerchime sounds for macbooks when they're connected to a powersource, just like iPhone/Pad
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
+
+# enables 'restore tabs' when reopening safar
+defaults write com.apple.Safari NSQuitAlwaysKeepsWindows -bool true
 
 echo "Optionally link .bashrc: echo '. ~/.bashrc' >> ~/.bash_profile"
