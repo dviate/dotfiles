@@ -16,5 +16,6 @@
     <property name="FileTemplates.CurrentTab" value="Templates" />
     <property name="FileTemplates.SelectedTemplate" value="SCSS" />
     <property name="FindSplitterProportion" value="0.25" />
+    <property name="RunConfigurable.dividerProportion" value="0.3" />
   </component>
 </application>

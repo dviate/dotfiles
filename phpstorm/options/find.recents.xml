@@ -1,9 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find />
-      <find>debug</find>
-      <find>'header'</find>
       <find>cd-main-nav-wrapper</find>
       <find>wrapper</find>
       <find>cd-main-nav</find>
@@ -22,6 +19,18 @@
       <find>cd-nav-trigger</find>
       <find>secondary</find>
       <find>#485c68</find>
+      <find>vh</find>
+      <find>main-content</find>
+      <find>green</find>
+      <find>is-open</find>
+      <find>$skin2</find>
+      <find>curl</find>
+      <find>dark-color</find>
+      <find>background-color</find>
+      <find>fruit</find>
+      <find>perspec</find>
+      <find>logo</find>
+      <find>levitate</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -32,6 +41,8 @@
       <replace>$color-white;</replace>
       <replace>black</replace>
       <replace>$color-black</replace>
+      <replace>has-submenu</replace>
+      <replace>has-subm</replace>
     </replaceStrings>
     <dirStrings>
       <dir>/development/dviate.com/src/scss</dir>
