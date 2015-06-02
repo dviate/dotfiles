@@ -1,6 +1,6 @@
 Do the following thing:
 
-- `mv dotfiles/ .dotfiles/`
+- `git clone git@github.com:dviate/dotfiles.git .dotfiles`
 - `./.dotfiles/install`
 
-And enjoy
+And enjoy 👹
