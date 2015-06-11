@@ -13,7 +13,10 @@ c=1
 host=`hostname`
 if [[ $host =~ ^MBPR ]]; then
 	c='4'
-	host='(╯°□°）╯︵ ┻━┻ '
+	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
+elif [[ $host =~ ^MBA ]]; then
+	c='6'
+	host='(ノಠ益ಠ)ノ彡┻━┻ 
 fi
 
 # git completion + prompt
