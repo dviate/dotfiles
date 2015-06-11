@@ -16,7 +16,7 @@ if [[ $host =~ ^MBPR ]]; then
 	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
 elif [[ $host =~ ^MBA ]]; then
 	c='6'
-	host='(ノಠ益ಠ)ノ彡┻━┻ 
+	host='(ノಠ益ಠ)ノ彡┻━┻'
 fi
 
 # git completion + prompt
