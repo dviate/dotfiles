@@ -1,9 +1,6 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>cd-main-nav-wrapper</find>
-      <find>wrapper</find>
-      <find>cd-main-nav</find>
       <find>cd-subnav-trigger</find>
       <find>nav-is-visible</find>
       <find>font</find>
@@ -31,6 +28,9 @@
       <find>perspec</find>
       <find>logo</find>
       <find>levitate</find>
+      <find>time</find>
+      <find>tasks</find>
+      <find>radius</find>
     </findStrings>
     <replaceStrings>
       <replace />

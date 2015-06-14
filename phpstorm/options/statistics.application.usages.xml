@@ -30,11 +30,11 @@
     </group>
     <group name="file-type">
       <project id="index.html" values="UNKNOWN,HTML" />
-      <project id="dotfiles" values="UNKNOWN,XML,PLAIN_TEXT" />
-      <project id="index.html0.tmp" values="UNKNOWN,XML" />
-      <project id="startmetuber.nl" values="HTML,XML,Native,JSON,htaccess,UNKNOWN,SourceMap,JavaScript,SQLite Database,Images,CSS,PLAIN_TEXT,PHP,SCSS,ARCHIVE" />
-      <project id="html5-boilerplate" values="SCSS,Images,XML,PLAIN_TEXT,JSON,UNKNOWN,PHP,htaccess,JavaScript" />
-      <project id="dviate.com" values="PATCH,C++,SmartyConfig,JSCS,htaccess,SCSS,PLAIN_TEXT,HTML,PHP,CSS,JSHint,Images,YAML,JavaScript,UNKNOWN,ESLint,SourceMap,Ini,JSON,CoffeeScript,DTD,XML" />
+      <project id="dotfiles" values="UNKNOWN,PLAIN_TEXT,XML" />
+      <project id="index.html0.tmp" values="XML,UNKNOWN" />
+      <project id="startmetuber.nl" values="JavaScript,Native,CSS,SmartyConfig,JSCS,Images,PATCH,ARCHIVE,DTD,SCSS,htaccess,PLAIN_TEXT,C++,SQLite Database,HTML,SourceMap,JSHint,UNKNOWN,CoffeeScript,XML,YAML,Ini,JSON,ESLint,PHP" />
+      <project id="html5-boilerplate" values="HTML,htaccess,ESLint,Ini,PLAIN_TEXT,CoffeeScript,SCSS,Images,DTD,JavaScript,SourceMap,C++,JSON,UNKNOWN,XML,JSHint,SmartyConfig,YAML,CSS,JSCS,PHP,PATCH" />
+      <project id="dviate.com" values="HTML,CSS,SourceMap,DTD,SmartyConfig,JSHint,UNKNOWN,htaccess,XML,ESLint,Ini,SCSS,CoffeeScript,Images,PATCH,JSON,PLAIN_TEXT,JavaScript,YAML,JSCS,PHP,C++" />
     </group>
     <group name="php-interpreter-version">
       <project id="index.html" values="not installed" />
@@ -99,7 +99,7 @@
       <entry feature="ide.settings.Twig" count="1" />
       <entry feature="ide.settings.TypeScript" count="1" />
       <entry feature="ide.settings.XML" count="1" />
-      <entry feature="ideaapp.started" count="17" />
+      <entry feature="ideaapp.started" count="18" />
     </counts>
   </component>
 </application>
