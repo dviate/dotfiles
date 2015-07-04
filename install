@@ -14,7 +14,7 @@ ln -s $d/phpstorm/options/ ~/Library/Logs/WebIde80/options/
 ###############################################################################
 
 # prevents itunes from opening when using headset's media buttons
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
 # enables powerchime sounds for macbooks when they're connected to a powersource, just like iPhone/Pad
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool true; open /System/Library/CoreServices/PowerChime.app &
