@@ -35,6 +35,7 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
 	guilt = "!f(){ git log --pretty='format:%an <%ae>' $@ | sort | uniq -c | sort -rn; }; f"
 	aliases = config --get-regexp alias
+	recap = log --since=\"00:00:00\" --no-merges --oneline --author=git@dviate.com
 
 [diff]
 	renames = true
