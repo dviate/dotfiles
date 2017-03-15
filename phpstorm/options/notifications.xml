@@ -1,9 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <toolWindow group="Find in Path" />
-    <toolWindow group="Web Deployment: Remote Host" />
-    <toolWindow group="Grunt Console" />
-    <toolWindow group="PHP Debugger" />
-    <toolWindow group="Vcs Messages" />
-  </component>
-</application>
