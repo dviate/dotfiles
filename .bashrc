@@ -1,4 +1,5 @@
 alias l='ls -AFhl --color=always'
+alias srprsme='cd ~/development/srprsme && source srprsme/bin/activate && export DJANGO_SETTINGS_MODULE=srprsme_website.local_settings'
 
 # os x is a special little snowflake... (aka stupid)
 if [ `uname` = 'Darwin' ]; then
