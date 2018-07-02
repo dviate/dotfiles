@@ -9,6 +9,13 @@ ln -s $d/.git-prompt.sh ~/.git-prompt.sh
 
 #ln -s $d/phpstorm/options/ ~/Library/Logs/WebIde80/options/
 
+
+###############################################################################
+# first, disable that @#!& guest account created when (re)installing macOS    #
+###############################################################################
+
+sudo fdesetup remove -user Guest
+
 ###############################################################################
 # npm sudo goodness                                                           #
 ###############################################################################
