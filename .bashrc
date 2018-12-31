@@ -1,10 +1,11 @@
 alias l='ls -AFhl --color=always'
+alias flushdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 
-# macOS is a special little snowflake... (aka stupid)
+# os x is a special little snowflake... (aka stupid)
 if [ `uname` = 'Darwin' ]; then
-        export CLICOLOR=1
-        export LSCOLORS=ExGxcxdxCxegedabagacad
-        alias l='ls -AFhl'
+	export CLICOLOR=1
+	export LSCOLORS=ExGxcxdxCxegedabagacad
+	alias l='ls -AFhl'
 fi
 
 c=1
@@ -12,11 +13,11 @@ c=1
 # host-specific colouring
 host=`hostname`
 if [[ $host =~ ^MBPR ]]; then
-        c='4'
-        host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
+	c='4'
+	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
 elif [[ $host =~ ^MBA ]]; then
-        c='6'
-        host='(ノಠ益ಠ)ノ彡┻━┻'
+	c='6'
+	host='(ノಠ益ಠ)ノ彡┻━┻'
 fi
 
 # git completion + prompt
