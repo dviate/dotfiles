@@ -15,7 +15,7 @@ host=`hostname`
 if [[ $host =~ ^MBPR ]]; then
 	c='4'
 	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
-elif [[ $host =~ ^MBA ]]; then
+elif [[ $host =~ ^MacMini ]]; then
 	c='6'
 	host='(ノಠ益ಠ)ノ彡┻━┻'
 fi
