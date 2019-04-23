@@ -36,6 +36,7 @@
 	guilt = "!f(){ git log --pretty='format:%an <%ae>' $@ | sort | uniq -c | sort -rn; }; f"
 	aliases = config --get-regexp alias
 	recap = log --since=\"00:00:00\" --no-merges --oneline --author=git@dviate.com
+	submodules = git submodule foreach git checkout master && git submodule foreach git pull && git commit -am "Update submodules" && git submodule update --init --recursive
 
 [diff]
 	renames = true
