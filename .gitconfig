@@ -5,7 +5,7 @@
 
 [core]
 	excludesfile = ~/.gitignore
-	autocrlf = input
+	autocrlf = false
 	safecrlf = true
 
 [push]
