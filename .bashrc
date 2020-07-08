@@ -1,6 +1,11 @@
 alias l='ls -AFhl --color=always'
 alias flushdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 
+# since aliases don't accept extra parameters, we're creating a function instead of an alias
+acme() {
+    dig -t txt _acme-challenge."$1" +short
+}
+
 # os x is a special little snowflake... (aka stupid)
 if [ `uname` = 'Darwin' ]; then
 	export CLICOLOR=1
