@@ -2,6 +2,7 @@ alias l='ls -AFhl --color=always'
 alias flushdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 
 # since aliases don't accept extra parameters, we're creating a function instead of an alias
+# reference: https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
 acme() {
     dig -t txt _acme-challenge."$1" +short
 }
