@@ -1,5 +1,7 @@
 alias l='ls -AFhl --color=always'
 alias flushdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
+alias sleeplidon='sudo pmset -b sleep 0; sudo pmset -b disablesleep 1; echo MacBook Pro will not fall asleep when you close the lid | say'
+alias sleeplidoff='sudo pmset -b sleep 5; sudo pmset -b disablesleep 0; echo MacBook Pro will fall asleep when you close the lid | say'
 
 # since aliases don't accept extra parameters, we're creating a function instead of an alias
 # reference: https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
