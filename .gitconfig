@@ -2,6 +2,7 @@
 [user]
 	name = Jermaine van Wijhe
 	email = git@dviate.com
+	signingkey = 9D483E93BFBBCA2A
 
 [core]
 	excludesfile = ~/.gitignore
@@ -16,6 +17,9 @@
 
 [branch "master"]
 	rebase = true
+
+[commit]
+	gpgsign = true
 
 [alias]
 	b = branch
