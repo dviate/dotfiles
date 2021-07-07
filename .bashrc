@@ -20,7 +20,7 @@ c=1
 
 # host-specific colouring
 host=`hostname`
-if [[ $host =~ ^MBPR ]]; then
+if [[ $host =~ ^Jermaine ]]; then
 	c='4'
 	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
 elif [ $host = 'vps01' ]; then
