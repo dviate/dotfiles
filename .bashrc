@@ -2,6 +2,7 @@ alias l='ls -AFhl --color=always'
 alias flushdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 alias sleeplidon='sudo pmset -b sleep 0; sudo pmset -b disablesleep 1; echo MacBook Pro will not fall asleep when you close the lid | say'
 alias sleeplidoff='sudo pmset -b sleep 5; sudo pmset -b disablesleep 0; echo MacBook Pro will fall asleep when you close the lid | say'
+alias cs='cd ~/development/work/campspace/campspace.com'
 
 # since aliases don't accept extra parameters, we're creating a function instead of an alias
 # reference: https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
@@ -43,7 +44,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
 [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
-
-
 # set prompt
 PS1='\n\[\e[0;3${c}m\]\u\[\e[0m\] @ \[\e[1;3${c}m\]${host}\[\e[0m\] \[\e[1;36m\]\w\[\e[0m\] $(__git_ps1 "[%s]") \n\$ '
+
+export ES_JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home'
+#export PATH=$ES_JAVA_HOME/bin:$PATH
