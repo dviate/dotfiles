@@ -43,6 +43,7 @@
 	submodules = git submodule foreach git checkout master && git submodule foreach git pull && git commit -am "Update submodules" && git submodule update --init --recursive
 	cleanupdevelop = "!f(){ git branch --merged develop | grep -v 'develop' | xargs -n 1 git branch -d; }; f"
 	cleanupmaster = "!f(){ git branch --merged master | grep -v 'master' | xargs -n 1 git branch -d; }; f"
+	sweep = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
 
 [diff]
 	renames = true
