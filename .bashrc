@@ -24,7 +24,7 @@ host=`hostname`
 if [[ $host =~ ^Jermaine ]]; then
 	c='4'
 	host='(づ｡◕‿‿◕｡)づ 彡┻━┻ '
-elif [ $host = 'vps01' ]; then
+elif [ $host = 'G62LXLP65D' ]; then
 	c='6'
 	host='(ノಠ益ಠ)ノ彡┻━┻'
 fi
